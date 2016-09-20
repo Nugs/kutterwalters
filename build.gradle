@@ -29,4 +29,4 @@ dependencies {
 }
 
 
-task stage(dependsOn: ['clean', 'build', 'installApp'])
+task stage(dependsOn: ['clean', 'build'])
